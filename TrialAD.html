@@ -2,51 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>18+ Video with Ad</title>
+  <title>Video + Ad</title>
   <style>
-    .video-wrapper {
-      max-width: 600px;
-      margin: 0 auto;
+    .container {
+      max-width: 640px;
+      margin: auto;
       padding: 10px;
     }
-    .video-wrapper blockquote,
-    .video-wrapper iframe {
-      width: 100% !important;
-      height: auto !important;
+    video {
+      width: 100%;
+      height: auto;
     }
     .ad-container {
-      margin-top: 16px;
+      margin-top: 15px;
       padding: 12px;
-      background: #f1f1f1;
+      background-color: #f1f1f1;
       text-align: center;
       border: 1px solid #ccc;
     }
     .ad-container a {
-      color: #0077cc;
-      text-decoration: none;
+      color: #d00000;
       font-weight: bold;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <video controls autoplay muted>
+      <source src="https://files.catbox.moe/rdrhvi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-  <div class="video-wrapper">
-    <!-- X Video Embed -->
-    <blockquote class="twitter-video" data-lang="en">
-      <a href="https://x.com/18plusmoviex/status/1862404838010888595/video/1">
-        Watch this video on X
-      </a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <!-- Advert Link -->
     <div class="ad-container">
-      <a href="https://otieu.com/4/9487901" target="_blank" rel="noopener">
-        🔞 Click here to watch full uncensored videos
-      </a>
+      <a href="https://otieu.com/4/9487901" target="_blank">🔞 Click to watch full video</a>
     </div>
   </div>
-
 </body>
-</html>
-
+</html> 
